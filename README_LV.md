@@ -1,14 +1,14 @@
-BasicCPP
+ï»¿BasicCPP
 ========
-Apstrâdâ teksta failu secîgâ reşîmâ.
-Dati no faila tiek nolasîti pa vienam simbolam 
+ApstrÄdÄ teksta failu secÄ«gÄ reÅ¾Ä«mÄ.
+Dati no faila tiek nolasÄ«ti pa vienam simbolam 
 
-Ierobeşojums: 
-1. Nedrîkst nolasît uzreiz visu failu vai veselu rindiòu.
-2. Nedrîkst dublçt visa faila saturu operatîvajâ atmiòâ.
-Sîkâkas prasîbas sk. Laboratorijas darbu noteikumos. df.lu.lv
+IerobeÅ¾ojums: 
+1. NedrÄ«kst nolasÄ«t uzreiz visu failu vai veselu rindiÅ†u.
+2. NedrÄ«kst dublÄ“t visa faila saturu operatÄ«vajÄ atmiÅ†Ä.
+SÄ«kakas prasÄ«bas sk. Laboratorijas darbu noteikumos. df.lu.lv
 
 Uzdevums:
-F2. Dots teksta fails, kurâ atrodas sintaktiski pareizs C++ programmas teksts.
-Saskaitît, cik salîdzinâğanas operatoru (==, !=, <=, >=) satur dotâ programma.
-Drîkst uzskatît, ka programmas tekstâ nav komentâru un ka attiecîgie simboli neparâdîsies teksta literâïos
+F2. Dots teksta fails, kurÄ atrodas sintaktiski pareizs C++ programmas teksts.
+SaskaitÄ«t, cik salÄ«dzinÄÅ¡anas operatoru (==, !=, <=, >=) satur dotÄ programma.
+DrÄ«kst uzskatÄ«t, ka programmas tekstÄ nav komentaru un ka attiecigie simboli neparÄdÄ«sies teksta literÄÄ¼os
