@@ -1,0 +1,38 @@
+/****
+Izveidot programmu valoda C++,
+kas apstrada teksta failu seciga režima.
+Dati no faila janolasa pa vienam simbolam
+(nedrikst nolasit uzreiz visu failu vai veselu rindinu).
+Nedrikst dublet visa faila saturu operativaja atmina.
+Sikakas prasibas sk. Laboratorijas darbu noteikumos.
+F2. Dots teksta fails, kura atrodas sintaktiski pareizs C++ programmas teksts.
+Saskaitit, cik salidzinašanas operatoru (==, !=, <=, >=) satur dota programma.
+Drikst uzskatit, ka programmas teksta nav komentaru un
+ka attiecigie simboli neparadisies teksta literalos
+******/
+#include <fstream>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    fstream fin ("prog.txt", ios::in);
+    char a;
+    int count=0;
+    fin.get(a);
+    while(fin)
+    {
+        if(a=='=' || a=='!' || a=='<' || a=='>')
+        {
+            if(a=='=')
+            {
+                count ++;
+            }
+        }
+        fin.get(a);
+    }
+    fin.close();
+    cout<<"Salidzinasanas simbolu skaits programma ir: "<<count<<endl;
+
+    return 0;
+}
